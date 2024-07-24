@@ -3,18 +3,17 @@ import os
 from docx import Document
 from groq import Groq
 
-# Set the environment variable if not already set
+
 os.environ['GROQ_API_KEY'] = os.environ.get('GROQ_API_KEY', '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')
 
-# Check if the environment variable is correctly set
+
 print("GROQ_API_KEY:", os.environ.get("GROQ_API_KEY"))
 
-# Initialize the Groq client
 client = Groq(
     api_key=os.environ.get("GROQ_API_KEY")
 )
 
-# Function to extract text from a .docx file
+
 def read_file(filepath):
     doc = Document(filepath)
     fulltext = []
@@ -22,13 +21,13 @@ def read_file(filepath):
         fulltext.append(paragraph.text)
     return '\n'.join(fulltext)
 
-# Function to interactively get user input for file name and document number
+
 def get_input():
     name = input("Introduceti numele fisierului .docx: ")
     output = input("Introduceti numele fisierului pentru salvare (fara extensie): ") + ".txt"
     return name.strip(), output.strip()
 
-# Read content from the .docx file
+
 name, output = get_input()
 offer_content = read_file(name)
 

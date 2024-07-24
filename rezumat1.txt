@@ -1,0 +1,41 @@
+Here is a personalized summary of the job offer:
+
+**Description of the application:**
+The application will have three essential branches: 
+1. Driver: a map with the route, pick-up and delivery points, estimated time, and real-time updates. 
+2. Restaurant: order management, confirmation, and status updates in real-time, with the option to see the driver's route. 
+3. Client: access to restaurant details, ordering, payment, and tracking of the order status with notifications.
+
+**Technologies used:**
+
+* Front-end: React and Ionic for the user interface
+* Back-end: NestJS for the server-side development
+* Database: MongoDB and Firebase for real-time data management
+* API: API Stripe for payment integration
+* Other: Google Maps for navigation, SmartBill for invoice generation (optional)
+
+**Task requirements:**
+
+* Develop the application with the mentioned technologies
+* Create user authentication with OTP via SMS/email
+* Implement payment gateway with API Stripe
+* Integrate map navigation with Google Maps
+* Develop reporting and analytics for financial data
+* Create an admin panel for user, restaurant, and rider management
+* Optional: integrate SmartBill for automatic invoice generation
+
+**Additional tasks:**
+
+* Design an initial project in Figma to eliminate any ambiguity regarding the graphical interface
+* Create a logical diagram to define the application's architecture
+* Develop an ER diagram to structure the database
+
+**Estimated time and cost:**
+
+* Development of the basic application with all features: 355 hours with 2 programmers (estimated cost: X Euro + TVA)
+* Development of the basic application with all features and additional suggestions: 379 hours with 2 programmers (estimated cost: X Euro + TVA)
+
+**Terms of purchase:**
+
+* The offer is strictly confidential and cannot be shared with third parties.
+* Prices are without VAT.

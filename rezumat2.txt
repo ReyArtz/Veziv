@@ -1,0 +1,36 @@
+Here is a personalized summary of the job request:
+
+**Application Description:**
+The client requires a custom-built CRM/ERP system that automates the entire process of managing online orders, inventory, and material requirements. The system should be able to extract material needs from orders, suggest reusable materials, and automatically generate documents (e.g., Aviz Calitate, SSM, Certificat Performanta, and Factura). Additionally, the system should have a cash flow management feature that tracks company expenses and income, and integrates with the existing software, WinMENTOR.
+
+**Technologies:**
+The technologies required for this project include:
+
+* Front-end: Not specified, but likely to be a web-based application built with a modern JavaScript framework (e.g., React, Angular, or Vue.js).
+* Back-end: A robust and scalable server-side technology (e.g., Node.js, Django, or Ruby on Rails) to handle business logic, data storage, and API integrations.
+* Database: A relational database management system (e.g., MySQL, PostgreSQL, or Microsoft SQL Server) to store and manage data.
+* APIs: Integration with WinMENTOR software and potentially an API bancar for automating financial transactions.
+
+**Task Breakdown:**
+
+1. Online Order Management:
+	* Implement a system for managing online orders, including automatic material need extraction, and suggesting reusable materials.
+	* Develop a "Resturi Materiale" section for tracking material sizes and quantities.
+	* Automate the process of generating quotes and sending them to clients.
+2. Inventory and Material Management:
+	* Implement a system for tracking inventory levels and material availability.
+	* Automate the process of checking material availability and suggesting alternative materials if needed.
+3. Document Automation:
+	* Implement a system for automatically generating documents (e.g., Aviz Calitate, SSM, Certificat Performanta, and Factura).
+4. Cash Flow Management:
+	* Implement a system for tracking company expenses and income, including automatic import of CSV files from bank statements.
+	* Develop a budgeting system for managing monthly expenses and sending notifications when limits are reached.
+5. Integration with WinMENTOR:
+	* Integrate the new system with the existing WinMENTOR software to ensure a seamless transition of data and processes.
+
+**Additional Tasks:**
+
+* Implement an API bancar for automating financial transactions (optional).
+
+**Estimated Time and Cost:**
+The estimated time for this project is approximately 71 days (568 hours) for 2 developers, plus an additional 10 days (80 hours) for the API bancar integration (if required). The total cost will depend on the agreed-upon rate per hour.
